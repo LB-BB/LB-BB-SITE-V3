@@ -45,25 +45,41 @@ class Main extends React.Component {
         >
           <h2 className="major">Projects</h2>
           <span className="project-image" className="image main">
-            <a href="https://satellite-hq.herokuapp.com/">
+            <a
+              href="https://satellite-hq.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={sat} alt="" />
             </a>
           </span>
           <p>{satDescrip}</p>
           <span className="image main">
-            <a href="https://virtual-realty.herokuapp.com/home">
+            <a
+              href="https://virtual-realty.herokuapp.com/home"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img className="project-image" src={virtual} alt="" />
             </a>
           </span>
           <p>{virtualDescrip}</p>
           <span className="image main">
-            <a href="https://github.com/LB-BB/tensorflowjs-smart-webcam">
+            <a
+              href="https://github.com/LB-BB/tensorflowjs-smart-webcam"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img className="project-image" src={webcam} alt="" />
             </a>
           </span>
           <p>{webcamDescrip}</p>
           <span className="image main">
-            <a href="https://github.com/LB-BB/BrainJS">
+            <a
+              href="https://github.com/LB-BB/BrainJS"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img className="project-image" src={neural} alt="" />
             </a>
           </span>
