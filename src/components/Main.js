@@ -6,7 +6,7 @@ import virtual from '../images/virtual-realty.png'
 import webcam from '../images/Webcams.jpeg'
 import neural from '../images/neural.jpeg'
 import chili from '../images/Chili+LB.jpeg'
-import me from '../images/me3.jpeg'
+import me from '../images/me4.jpg'
 
 const satDescrip =
   'Satellite HQ is 2D Virtual Office Space for casual workplace interaction. Users can "bump into" each other in the virtual office, triggering a video call between users. We intended the project to keep people connected in remote working conditions. Stack: Phaser, WebRTC, Socket.io, and Express.'
@@ -141,11 +141,9 @@ class Main extends React.Component {
             time to finally explore doing that digitally.
             <br></br>
             <br></br>
-            During my time as an engineer, as a user I’ve been struck by the
-            amount of poorly tested software out there. Unit testing has emerged
-            as a crucial element that often gets overlooked until it’s a real
-            problem. I’m looking to add my skills to a test engineering and
-            strategy team.
+            During my time as an engineer, unit testing has emerged as a crucial
+            element that often gets overlooked until it’s a real problem. I’m
+            looking to add my skills to a test engineering and strategy team.
             <br></br>
             <br></br>I have also seen 600+ films. Let's discuss your favorite!
           </p>
