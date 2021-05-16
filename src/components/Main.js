@@ -6,7 +6,7 @@ import virtual from '../images/virtual-realty.png'
 import webcam from '../images/Webcams.jpeg'
 import neural from '../images/neural.jpeg'
 import chili from '../images/Chili+LB.jpeg'
-import me from '../images/me.jpeg'
+import me from '../images/me3.jpeg'
 
 const satDescrip =
   'Satellite HQ is 2D Virtual Office Space for casual workplace interaction. Users can "bump into" each other in the virtual office, triggering a video call between users. We intended the project to keep people connected in remote working conditions. Stack: Phaser, WebRTC, Socket.io, and Express.'
