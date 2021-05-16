@@ -6,6 +6,7 @@ import virtual from '../images/virtual-realty.png'
 import webcam from '../images/Webcams.jpeg'
 import neural from '../images/neural.jpeg'
 import chili from '../images/Chili+LB.jpeg'
+import me from '../images/me.jpeg'
 
 const satDescrip =
   'Satellite HQ is 2D Virtual Office Space for casual workplace interaction. Users can "bump into" each other in the virtual office, triggering a video call between users. We intended the project to keep people connected in remote working conditions. Stack: Phaser, WebRTC, Socket.io, and Express.'
@@ -36,6 +37,27 @@ class Main extends React.Component {
         id="main"
         style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}
       >
+        <article
+          id="intro"
+          className={`${this.props.article === 'intro' ? 'active' : ''} ${
+            this.props.articleTimeout ? 'timeout' : ''
+          }`}
+          style={{ display: 'none' }}
+        >
+          <h2 className="major">Intro</h2>
+          <span className="image main">
+            <img src={me} alt="" />
+          </span>
+          <p>
+            LB | (they, them, theirs) | NYC
+            <br></br>
+            I'm a graduate of the Grace Hopper Program for Software Development
+            at Fullstack Academy. I am currently a teaching fellow at FSA,
+            mentoring engineers-in-training. You can see my work
+            <a href="#work"> here</a>.
+          </p>
+          {close}
+        </article>
         <article
           id="work"
           className={`${this.props.article === 'work' ? 'active' : ''} ${
@@ -99,19 +121,18 @@ class Main extends React.Component {
             <img src={chili} alt="" />
           </span>
           <p>
-            I'm LB, former escape room designer and puzzle afficianado. (And
-            that super smart dog is Chili!)
+            I'm LB, a nonbinary escape room designer and puzzle afficianado.
+            (The super smart dog above is Chili)
             <br></br>
             <br></br>I became interested in coding when I was in college
             studying environmental science. I found a website called
             <a href="https://www.zooniverse.org/"> Zooniverse</a> that uses
             crowdsourcing to sort through complex data; users are asked to
-            perform low-level tasks like identifying animals in wildlife
-            cameras, transcribing text from Underground Railroad letters, or
-            spotting clots in brain photos. These tasks would take a researcher
-            lifetimes to get through on their own, and finding the site
-            triggered a deep fascination with the idea of automating this type
-            of low-level work.
+            perform simple tasks like identifying animals in wildlife cameras or
+            transcribing handwritten notes from early marine explorers. These
+            tasks could take a researcher a lifetime to get through, and finding
+            the site triggered a fascination with automating this type of
+            low-level work.
             <br></br>
             <br></br>
             When the pandemic arrived, I was caught up in a different interest
@@ -121,13 +142,12 @@ class Main extends React.Component {
             <br></br>
             <br></br>
             During my time as an engineer, as a user I’ve been struck by the
-            amount of very poorly built software out there. Unit testing has
-            been pointed out to me as a crucial element that often gets
-            overlooked until it’s a real problem. I’m currently looking for a
-            team with a strong interest in the testing and maintainability of a
-            codebase.
+            amount of poorly tested software out there. Unit testing has emerged
+            as a crucial element that often gets overlooked until it’s a real
+            problem. I’m looking to add my skills to a test engineering and
+            strategy team.
             <br></br>
-            <br></br>I have also seen 500+ films. Let's discuss your favorite!
+            <br></br>I have also seen 600+ films. Let's discuss your favorite!
           </p>
           {close}
         </article>
