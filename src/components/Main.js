@@ -8,16 +8,16 @@ import neural from '../images/neural.jpeg'
 import chili from '../images/Chili+LB.jpeg'
 
 const satDescrip =
-  'Satellite HQ is 2D Virtual Office Space for Casual Workplace Interaction. We built it to help build office culture and camaraderie in remote working conditions. Built with Phaser, WebRTC, Socket.io, and Express.'
+  'Satellite HQ is 2D Virtual Office Space for casual workplace interaction. Users can "bump into" each other in the virtual office, triggering a video call between users. We intended the project to keep people connected in remote working conditions. Stack: Phaser, WebRTC, Socket.io, and Express.'
 
 const virtualDescrip =
   'Virtual Realty is a virtual property sales e-Commerce site. Built with React, Redux, Express, and Sequelize. '
 
 const brainDescrip =
-  'I made this collection of experiments with Neural Networks in Brain.JS. It includes the XOR problem, a color identifier, and a stock market predictor.'
+  'I made this collection of experiments with Neural Networks in Brain.JS. They use machine learning to solve the XOR problem, identify color shades, and predict stock market values.'
 
 const webcamDescrip =
-  'I built this Smart Webcam with Tensorflow.js and the Tensorflow library COCO-SSD. It can recognize 90 household objects with 75% or higher accuracy. '
+  'I built this Smart Webcam with Tensorflow.js. It is a simple implementation of the machine learning model library, COCO-SSD. It can recognize 90 household objects (including cats!) with 75% or higher accuracy. '
 
 class Main extends React.Component {
   render() {
