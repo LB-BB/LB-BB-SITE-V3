@@ -51,9 +51,9 @@ class Main extends React.Component {
           <p>
             LB | (they, them, theirs) | NYC
             <br></br>
-            I'm a graduate of the Grace Hopper Program for Software Development
-            at Fullstack Academy. I am currently a teaching fellow at FSA,
-            mentoring engineers-in-training. You can see my work
+            I attended the Grace Hopper Program for Software Development at Fullstack Academy. I was hired into the company as a Solutions Engineer when I graduated, and I currently monitor and improve on Fullstack's admissions automations. 
+            These days I mostly work with Hubspot, Zapier, and our own CRM codebase. 
+            My schoolwork is available to view
             <a href="#work"> here</a>.
           </p>
           {close}
@@ -121,31 +121,19 @@ class Main extends React.Component {
             <img src={chili} alt="" />
           </span>
           <p>
-            I'm LB, a nonbinary escape room designer and puzzle afficianado.
+            I'm LB, an escape-room-designer-turned-engineer.
             (The super smart dog above is Chili)
             <br></br>
-            <br></br>I became interested in coding when I was in college
-            studying environmental science. I found a website called
-            <a href="https://www.zooniverse.org/"> Zooniverse</a> that uses
-            crowdsourcing to sort through complex data; users are asked to
-            perform simple tasks like identifying animals in wildlife cameras or
-            transcribing handwritten notes from early marine explorers. These
-            tasks could take a researcher a lifetime to get through, and finding
-            the site triggered a fascination with automating this type of
-            low-level work.
+            <br></br>I was inspired to learn coding by a website called
+            <a href="https://www.zooniverse.org/"> Zooniverse</a>. It uses crowdsourcing to interpret complex data (like spotting clots in 10,000 rat brain photos for alzheimers research). I was inspired to learn how one might automate tasks like this. 
             <br></br>
             <br></br>
-            When the pandemic arrived, I was caught up in a different interest
-            of mine-- designing escape rooms. I’ve always liked to build fun and
-            complex things. When all the escape rooms closed, it was the perfect
-            time to finally explore doing that digitally.
+            When the pandemic arrived, I was busy designing escape rooms for a company in Manhattan. Escape rooms lost some popularity and I was freed up to pursue coding. 
             <br></br>
             <br></br>
-            During my time as an engineer, unit testing has emerged as a crucial
-            element that often gets overlooked until it’s a real problem. I’m
-            looking to add my skills to a test engineering and strategy team.
+            I am currently a solutions engineer with Fullstack Academy, and unit testing has emerged as the part of development I find most enjoyable and most important. I now write the test suite first, usually with Tyepsecript, and the code second. It's just such a joy when it all comes back green. 
             <br></br>
-            <br></br>I have also seen 600+ films. Let's discuss your favorite!
+            <br></br>I've seen over 800 films. Let's discuss your favorite!
           </p>
           {close}
         </article>
@@ -158,28 +146,6 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          {/* <form method="post" action="mailto:bradburnlb@gmail.com">
-            <div className="field half first">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="email" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
-            </div>
-            <ul className="actions">
-              <li>
-                <input type="submit" value="Send Message" className="special" />
-              </li>
-              <li>
-                <input type="reset" value="Reset" />
-              </li>
-            </ul>
-          </form> */}
           <ul className="icons">
             <li>
               <a
